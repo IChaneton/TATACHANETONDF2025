@@ -92,12 +92,12 @@ video:fullscreen{
     
 }
 
-h5.card-footer {
+/* h5.card-footer {
     font-size: smaller ;
-}
+} */
 
 h6.card-footer{
-    font-size: smaller ;
+    /* font-size: smaller ; */
     opacity: 50%;
     margin-top: -5px;
 }
