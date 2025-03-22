@@ -5,11 +5,6 @@ body{
 nav{
     box-shadow: 0px -50px 100px grey;
 }
-nav img{
-    border: solid red 2px;
-    width: 5%;
-    height: 5%;
-}
 .footer{
     box-shadow: 0px 50px 200px grey ;
 }
@@ -56,35 +51,14 @@ nav img{
     fill: red;
 }
 .reel{
-    height: 50%;
-    width: 50%;
-    position: absolute;
-    translate: -50% -50%;
-    top: 50%;
-    left: 50%;
-    
-}
-.reel iframe{
-    height: 100%;
-    width: 100%;
-    top: 50%;
-    left: 50%; 
-    padding: 1%;
-    border-radius: 2%;
-    border: solid 1px;
-    border-color: rgba(139, 0, 0, 0.7);
-    margin: 1vh;
+    width: 50%;   
 }
 
 video:fullscreen{
     translate: 0 0;
     border: none;
 }
-@media only screen and (max-width: 540px    ) {
-    .reel {
-        width: 100%;
-    }
-  }
+
 
 .dropdown-item:active{
     background-color:transparent !important;
@@ -104,3 +78,54 @@ h6.card-footer{
 iframe{
     margin: -1vh;
 }
+@media only screen and (max-width: 1920px    ) {
+    .reel {
+        width: 50%;
+    }
+    .lang_icon{
+        width: 7%;
+        /* border: solid orange; */
+    }
+}
+@media only screen and (max-width: 1200px    ) {
+    .reel {
+        width: 75%;
+    }
+    .lang_icon{
+        width: 15%;
+        /* border: solid blue; */
+    }
+}
+@media only screen and (max-width: 992px    ) {
+    .reel {
+        width: 75%;
+    }
+    .lang_icon{
+        height: 5%;
+        border: solid lightblue;
+    }
+   
+}
+@media only screen and (max-width: 768px    ) {
+    .reel {
+        width: 75%;
+       
+    }
+    .lang_icon{
+        width: 5%;
+        /* border: solid purple; */
+    }
+}
+@media only screen and (max-width: 576px    ) {
+    .reel {
+        width: 100%;
+       
+    }
+    .lang_icon{
+        width: 5%;
+    }
+}
+
+
+
+
