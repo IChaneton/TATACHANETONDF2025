@@ -115,6 +115,12 @@ iframe{
         width: 5%;
         /* border: solid purple; */
     }
+    .respo_translate_25{
+        translate: -25% 0%;
+    }
+    .respo_translate_50{
+        translate: -50% 0%;
+    }
 }
 @media only screen and (max-width: 576px    ) {
     .reel {
@@ -124,6 +130,7 @@ iframe{
     .lang_icon{
         width: 5%;
     }
+    
 }
 
 
